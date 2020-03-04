@@ -7,7 +7,7 @@ pipeline {
     stage('Compilation et tests') {
 
       agent {
-        label 'najham/agent_label'
+        label 'najham/agent_java'
       }
 
       stages {
