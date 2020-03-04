@@ -8,6 +8,7 @@ pipeline {
 
       agent {
         docker { image 'agent_java' }
+      }
     }
 
       stages {
