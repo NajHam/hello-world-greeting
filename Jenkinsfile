@@ -18,10 +18,8 @@ pipeline {
 	}
     }
   }
-
-      stages {
-  
-        stage('Test unitaire & publication') {
+ 
+       stage('Test unitaire & publication') {
     
           steps {
             sh 'mvn test'
@@ -65,6 +63,4 @@ pipeline {
 
         }
     
-      }
-  
-    }
+}
