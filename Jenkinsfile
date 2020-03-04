@@ -7,7 +7,7 @@ pipeline {
     stage('Compilation et tests') {
 
       agent {
-        docker { image 'agent_java:latest' }
+        docker { image 'najham/agent_java:latest' }
       }
 
       stages {
