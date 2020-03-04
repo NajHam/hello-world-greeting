@@ -9,15 +9,15 @@ pipeline {
       agent {
         docker { image 'agent_java' }
       }
+     }
+	
+    stage('Vérification de connection') {
+	
+	steps{
+		echo 'Building..'
 	}
-	
-	stage('Vérification de connection') {
-	
-		steps{
-			echo 'Building..'
-		}
-	
     }
+  }
 
       stages {
   
@@ -68,5 +68,3 @@ pipeline {
       }
   
     }
-    
-  }
