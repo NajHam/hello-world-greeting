@@ -1,9 +1,9 @@
 pipeline {
   
    agent {
-        docker { image 'agent_java' }
+        label 'agent_java'
       }
-  
+	
   stages {
        
     stage('Vérification de connection') {
