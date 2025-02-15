@@ -1,0 +1,7 @@
+
+us avons donc ajouté un fichier à notre dépôt local, mais il n'est pas encore apparu sur notre dépôt distant. Voyons l'état d'avancement de notre dépôt à l'aide de git status.
+sjsj
+
+
+
+jsjsjqzddqb
